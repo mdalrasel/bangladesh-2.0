@@ -13,8 +13,8 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
-    
-    
+
+
 }
 
 .nev-btn {
@@ -65,15 +65,16 @@ body {
 
 .pillars {
     margin-top: 80px;
-    
+
 }
-.pillarsCard{
+
+.pillarsCard {
     display: flex;
     justify-content: space-between;
 }
 
 .pillars-box {
-    
+
     background: #FFF;
     border-radius: 16px;
     border: 1px solid #0e0e0e26
@@ -93,4 +94,98 @@ body {
 
 .pillars-box-content {
     color: #0e0e0eb3;
+}
+
+.VisionCard {
+    display: flex;
+    justify-content: space-between;
+}
+.Vision-of-Future-title{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 50px;
+
+}
+.Vision-of-Future-content{
+    color: #0e0e0eb3;
+}
+
+.VisionCard1 {
+    border-radius: 16px;
+    border: 0px solid #5490F5;
+    background: #5490f533;
+    border: none;
+
+}
+
+.VisionCard1-title,.VisionCard2-title,.VisionCard3-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0e0e0ecc;
+}
+
+.VisionCard1-content,.VisionCard2-content,.VisionCard3-content {
+    color: #0e0e0eb3;
+}
+
+.VisionCard1-btn {
+    color: #FFF;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #5490F5;
+    padding: 11px 20px;
+    border: none;
+}
+.VisionCard2 {
+    border-radius: 16px;
+    border: 0px solid #09A15C;
+    background: #C6E4D6;
+    border: none;
+
+}
+
+/* .VisionCard2-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0e0e0ecc;
+} */
+
+/* .VisionCard2-content {
+    color: #0e0e0eb3;
+} */
+
+.VisionCard2-btn {
+    color: #FFF;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #09A15C;
+    padding: 11px 20px;
+    border: none;
+}
+.VisionCard3 {
+    border-radius: 16px;
+    border: 0px solid #FFC239;
+    background: #F7EBCF;
+    border: none;
+
+}
+
+/* .VisionCard3-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0e0e0ecc;
+} */
+
+/* .VisionCard3-content {
+    color: #0e0e0eb3;
+} */
+
+.VisionCard3-btn {
+    color: #FFF;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FFC239;
+    padding: 11px 20px;
+    border: none;
 }
