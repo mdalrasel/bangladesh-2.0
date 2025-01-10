@@ -189,3 +189,19 @@ body {
     padding: 11px 20px;
     border: none;
 }
+.advice{
+    padding: 48px 24px;
+    border: 1px solid #0e0e0e26;
+    border-radius: 16px;
+}
+.advice-content{
+    color: #0e0e0ecc;
+}
+.advice-yanus{
+    color: #0e0e0ecc;
+    font-size: 20px;
+    font-weight: 600;
+}
+.Adviser{
+    color: #0e0e0e99;
+}
