@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background: #F1F1F3;
+}
+
+* {
+    margin: 10px 20px;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.nev-btn {
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #006A50;
+}
+
+.nav-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+    background: #C6E4D6;
+    padding: 20px 30px
+}
+
+.nav-banner-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #0e0e0e80;
+}
+
+.nav-banner-content {
+    color: #0E0E0E;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.nav-banner-btn {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #006A50;
+    padding: 17px 34px;
+    border: none;
+
+}
+
+.nav-banner-img {
+    width: 500px;
+    height: auto;
+}
+
+.pillars {
+    margin-top: 80px;
+    
+}
+.pillarsCard{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pillars-box {
+    
+    background: #FFF;
+    border-radius: 16px;
+    border: 1px solid #0e0e0e26
+}
+
+.pillars-title {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.pillars-box-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0e0e0ecc;
+}
+
+.pillars-box-content {
+    color: #0e0e0eb3;
+}
