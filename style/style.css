@@ -3,16 +3,21 @@
 body {
     font-family: 'Fira Sans', sans-serif;
     background: #F1F1F3;
-}
-
-* {
-    margin: 10px 20px;
+    margin: 0 auto;
     padding: 0;
 }
 
+.buttonHover:hover {
+    background-color: #d1f0d1; 
+    border-color: #b5e0b5;   
+    transform: scale(1.05); 
+  }
+
+/* header section */
 .nav {
     display: flex;
     justify-content: space-between;
+    margin: 24px 160px;
 
 
 }
@@ -25,6 +30,12 @@ body {
     font-weight: 600;
     color: #006A50;
 }
+.nev-btn:hover {
+    color: white;
+    background-color: #006A50; 
+    border-color: #2e4e2e;   
+    transform: scale(1.05); 
+  }
 
 .nav-banner {
     display: flex;
@@ -32,7 +43,8 @@ body {
     align-items: center;
     border-radius: 24px;
     background: #C6E4D6;
-    padding: 20px 30px
+    padding: 20px 30px;
+    margin: 50px 160px;
 }
 
 .nav-banner-title {
@@ -55,29 +67,33 @@ body {
     background: #006A50;
     padding: 17px 34px;
     border: none;
-
 }
+
 
 .nav-banner-img {
     width: 500px;
     height: auto;
 }
 
+/* pillars- section */
+
 .pillars {
-    margin-top: 80px;
+    margin: 80px 160px;
 
 }
 
 .pillarsCard {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .pillars-box {
 
     background: #FFF;
     border-radius: 16px;
-    border: 1px solid #0e0e0e26
+    border: 1px solid #0e0e0e26;
+    padding: 10px;
 }
 
 .pillars-title {
@@ -90,22 +106,32 @@ body {
     font-size: 20px;
     font-weight: 700;
     color: #0e0e0ecc;
+    margin-top: 10px;
 }
 
 .pillars-box-content {
     color: #0e0e0eb3;
 }
 
+/* vision - section */
+
+.Vision {
+    margin: 80px 160px;
+}
+
+
+
 .VisionCard {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .Vision-of-Future-title {
     color: #0E0E0E;
     font-size: 40px;
     font-weight: 700;
-    margin-top: 50px;
+    margin-bottom: 0;
 
 }
 
@@ -118,6 +144,7 @@ body {
     border: 0px solid #5490F5;
     background: #5490f533;
     border: none;
+    padding: 20px;
 
 }
 
@@ -127,6 +154,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     color: #0e0e0ecc;
+    margin-bottom: 0;
 }
 
 .VisionCard1-content,
@@ -149,18 +177,10 @@ body {
     border: 0px solid #09A15C;
     background: #C6E4D6;
     border: none;
+    padding: 20px;
 
 }
 
-/* .VisionCard2-title {
-    font-size: 20px;
-    font-weight: 700;
-    color: #0e0e0ecc;
-} */
-
-/* .VisionCard2-content {
-    color: #0e0e0eb3;
-} */
 
 .VisionCard2-btn {
     color: #FFF;
@@ -176,18 +196,9 @@ body {
     border: 0px solid #FFC239;
     background: #F7EBCF;
     border: none;
+    padding: 20px;
 
 }
-
-/* .VisionCard3-title {
-    font-size: 20px;
-    font-weight: 700;
-    color: #0e0e0ecc;
-} */
-
-/* .VisionCard3-content {
-    color: #0e0e0eb3;
-} */
 
 .VisionCard3-btn {
     color: #FFF;
@@ -198,13 +209,17 @@ body {
     border: none;
 }
 
+
+/* advice-section */
+
 .advice {
+    margin: 80px 160px;
     padding: 48px 24px;
     border: 1px solid #0e0e0e26;
     border-radius: 16px;
     background-image: url(/assets/quote-bg.png);
     background-repeat: no-repeat;
-    background-position: 45px 30px;
+    background-position: 25px 35px;
 }
 
 .advice-content {
@@ -221,9 +236,11 @@ body {
     color: #0e0e0e99;
 }
 
+
+/* opinionMatters-section */
+
 .opinionMatters {
-    /* width: 100%; */
-    /* margin: 0 auto; */
+    margin: 80px 160px;
     border: 1px solid #ddd;
     border-radius: 16px;
     padding: 32px;
@@ -231,8 +248,6 @@ body {
 }
 
 .opinionMattersDiv {
-    /* background-color: #007bff; */
-    /* color: white; */
     text-align: center;
     padding: 10px 0;
     font-size: 20px;
@@ -277,6 +292,13 @@ td {
     padding: 10px 14px;
 }
 
+
+
+/* Recent-News-section */
+
+.Recent-News{
+    margin: 80px 160px;
+}
 .Recent-News-title {
     margin-top: 50px;
     font-size: 40px;
@@ -287,7 +309,8 @@ td {
 .Recent-News-descreption {
     display: flex;
     justify-content: flex-start;
-    align-items:center;
+    align-items: center;
+    gap: 20px;
     padding: 40px;
     margin-top: 20px;
     border-radius: 24px;
@@ -304,24 +327,153 @@ td {
     font-weight: 700;
     color: rgba(14, 14, 14, 0.80);
 }
-.descreption-logo{
+
+.descreption-logo {
     margin: 0 auto;
 }
-.descreption-time{
+
+.descreption-time {
     display: flex;
-    margin: 0;
+    gap: 10px;
 }
-.descreption-content{
+
+.descreption-content {
     margin: 0 auto;
     color: rgba(14, 14, 14, 0.70);
 }
-.descreptionMore-btn{
-    margin:10px 0px ;
 
+.descreptionMore-btn,
+.donate-btn {
+    margin: 10px 0px;
     color: #FFF;
     font-weight: 600;
     border-radius: 8px;
     background: #006A50;
     padding: 13px 26px;
     border: none;
+}
+
+/* Donate-section */
+
+
+.donate{
+    margin: 80px 160px;
+}
+.donate-header {
+    text-align: center;
+}
+
+.donate-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.donate-content {
+    padding: 0px 50px;
+    color: rgba(14, 14, 14, 0.70);
+}
+
+.donate-taka {
+    display: flex;
+    justify-content: space-between;
+}
+
+.donate-taka1 {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 0px 40px;
+    font-weight: 700;
+    font-size: 40px;
+    border-radius: 16px;
+    background: #FFF;
+    margin: 10px 0px;
+}
+.donate-taka1:hover{
+    cursor: pointer;
+    background-color: #c8ede2;
+    color: white;
+    
+}
+
+.donate-input1 {
+    display: flex;
+    justify-content: center;
+}
+
+.donate-input {
+    margin-top: 20px;
+    text-align: center;
+    width: 90%;
+    padding: 20px 40px;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15)
+}
+
+.donate-btn1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Subscribe-section */
+.Subscribe {
+    margin: 0px 160px;
+    border-radius: 24px;
+    background: #C6E4D6;
+    padding: 80px 100px;
+    text-align: center;
+}
+
+.Subscribe-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.Subscribe-input {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    justify-content: center;
+}
+
+.Subscribe-input-text {
+    border-radius: 8px 0px 0px 8px;
+    background: #FFF;
+    padding: 20px 40px;
+    border-right: none;
+    border: none;
+}
+
+.Subscribe-input-btn {
+    border-radius: 0px 8px 8px 0px;
+    background: #006A50;
+    padding: 17px 34px;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+}
+/* footer section */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    background: #FFF;
+}
+
+.footer-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.footer-hr {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-social {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
